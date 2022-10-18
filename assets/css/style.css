@@ -4,8 +4,8 @@
   box-sizing: border-box;
 }
 
-.main {  
-  padding: 0 1em;  
+.main {
+  padding: 0 1em;
   max-width: 60rem;
   margin: 0 auto;
   background-size: cover;
@@ -14,8 +14,17 @@
 }
 
 .header {
-  height: 100%;
+  min-height: 300px;
   display: grid;
   place-items: center;
 }
 
+.img {
+  width: 70%;
+}
+
+@media all and (max-width: 1340px) {
+  img {
+    width: 100%;
+  }
+}
