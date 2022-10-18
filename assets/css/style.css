@@ -5,17 +5,17 @@
 }
 
 .main {  
-  align-items: center;
-  justify-content: center;
-  width: 1170px;
-  margin: 20px;
+  padding: 0 1em;  
+  max-width: 60rem;
+  margin: 0 auto;
   background-size: cover;
   background-position: center center;
+  flex-direction: center;
 }
-.section-title {
-  flex: 2;
-  padding: 25px;
-  position: relative;
-  background-size: cover;
-  background-position: center center;
+
+.header {
+  height: 100%;
+  display: grid;
+  place-items: center;
 }
+
